@@ -1,0 +1,48 @@
+-keepattributes *Annotation*,EnclosingMethod,Signature,SourceFile,LineNumberTable
+
+
+-dontwarn org.slf4j.**
+-dontwarn org.json.*
+-dontwarn org.mortbay.**
+-dontwarn org.apache.log4j.**
+-dontwarn org.apache.commons.logging.**
+-dontwarn org.apache.commons.logging.**
+-dontwarn org.apache.commons.codec.binary.**
+-dontwarn javax.xml.**
+-dontwarn javax.management.**
+-dontwarn java.lang.management.**
+-dontwarn android.support.**
+-dontwarn com.google.code.**
+-dontwarn oauth.signpost.**
+-dontwarn org.joda.convert.**
+-dontwarn okio.**
+-dontwarn org.xmlpull.v1.**
+
+-keep class javax.**  { *; }
+-keep class org.**  { *; }
+-keep class java.lang.management.**  { *; }
+-keep class com.google.code.**  { *; }
+-keep class oauth.signpost.**  { *; }
+
+-keep class butterknife.** { *; }
+-dontwarn butterknife.internal.**
+-keep class **$$ViewInjector { *; }
+
+-keepclasseswithmembernames class * {
+    @butterknife.* <fields>;
+}
+
+-keepclasseswithmembernames class * {
+    @butterknife.* <methods>;
+}
+
+##---------------Begin: proguard configuration for Gson  ----------
+
+# Gson specific classes
+-keep class sun.misc.Unsafe { *; }
+#-keep class com.google.gson.stream.** { *; }
+
+# Application classes that will be serialized/deserialized over Gson
+-keep class de.dev.eth0.rssreader.data.model.** { *; }
+
+##---------------End: proguard configuration for Gson  ----------

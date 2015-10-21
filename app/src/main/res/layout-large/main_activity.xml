@@ -1,0 +1,40 @@
+<LinearLayout
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:ignore="InconsistentLayout">
+
+  <include layout="@layout/include_toolbar"/>
+  
+  <android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" 
+      android:orientation="horizontal"
+      android:baselineAligned="false"
+    >
+      <fragment class="de.dev.eth0.rssreader.app.ui.fragments.FeedSummaryListFragment"
+              android:id="@+id/summary_list"
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="match_parent"/>
+              <fragment class="de.dev.eth0.rssreader.app.ui.fragments.FeedEntryFragment"
+                android:id="@+id/feed_detail"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <include layout="@layout/include_drawer_content"/>
+
+  </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

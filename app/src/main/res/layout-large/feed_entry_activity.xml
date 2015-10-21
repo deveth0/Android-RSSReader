@@ -1,0 +1,20 @@
+<LinearLayout
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:ignore="InconsistentLayout"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <!-- Used to allow the fallback from two pane => one pane -->
+  <fragment class="de.dev.eth0.rssreader.app.ui.fragments.FeedSummaryListFragment"
+                  android:id="@+id/summary_list"
+                  android:layout_width="0dp"
+                  android:layout_height="0dp"/>
+  <fragment class="de.dev.eth0.rssreader.app.ui.fragments.FeedEntryFragment"
+              android:id="@+id/feed_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+</LinearLayout>

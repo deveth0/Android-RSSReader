@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" >
+
+  <PreferenceCategory
+    android:title="@string/settings_updates" >
+    <ListPreference
+      android:title="@string/settings_updates_frequency"
+      android:key="updates_frequency"
+      android:summary="%s"
+      android:defaultValue="60"
+      android:entries="@array/updateFrequencyWord"
+      android:entryValues="@array/updateFrequencyValue" />
+      <CheckBoxPreference
+        android:title="@string/settings_updates_wifi_only"
+        android:defaultValue="false"
+        android:key="updates_wifi_only" />
+  </PreferenceCategory>
+
+  <PreferenceCategory
+    android:title="@string/settings_notifications" >
+
+    <CheckBoxPreference
+      android:title="@string/settings_notifications_enabled"
+      android:defaultValue="true"
+      android:key="notifications_enabled" />
+  </PreferenceCategory>
+
+  <PreferenceCategory
+    android:title="@string/settings_cache" >
+    <ListPreference
+      android:title="@string/settings_cache_size"
+      android:key="cache_size"
+      android:summary="%s"
+      android:defaultValue="10"
+      android:entries="@array/cacheSizeWord"
+      android:entryValues="@array/cacheSizeValue" />
+    
+    <PreferenceScreen
+      android:title="@string/settings_cache_extended">
+      <PreferenceCategory
+        android:title="@string/settings_cache_extended" >
+        <CheckBoxPreference
+          android:title="@string/settings_cache_images"
+          android:defaultValue="true"
+          android:key="cache_images" />
+          <!-- <CheckBoxPreference
+          android:title="@string/settings_cache_pdf"
+          android:defaultValue="true"
+          android:key="cache_pdf" /> -->
+      </PreferenceCategory>
+    </PreferenceScreen>
+  </PreferenceCategory>
+
+
+</PreferenceScreen>

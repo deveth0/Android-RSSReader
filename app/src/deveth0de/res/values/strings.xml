@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">dev-eth0.de</string>
+
+  <string name="notification_title">Neues von dev-eth0.de</string>
+  <string name="notification_title_extended">Es gibt neue Posts</string>
+
+</resources>

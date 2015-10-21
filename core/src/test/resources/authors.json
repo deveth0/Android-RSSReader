@@ -1,0 +1,17 @@
+[
+  {
+    "description": "ipsum lorem <br/> foobar",
+    "email": "foo@bar.com",
+    "name": "Author 1",
+    "phone": "+0123456789",
+    "twitter": "@foobar"
+  },
+  {
+    "description": "foobar ipsum <br/> lorem",
+    "email": "foo@bar.com",
+    "name": "Author 2",
+    "phone": "2309423458221",
+    "twitter": "@foobar"
+  }
+]
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:card_view="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:ignore="InconsistentLayout"
+  android:id="@+id/feedentry"
+  android:layout_margin="@dimen/component_padding_vertical"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:padding="@dimen/component_padding_vertical"
+  android:clickable="true"
+  android:descendantFocusability="beforeDescendants"
+  android:orientation="vertical">
+
+  <TextView
+    android:id="@+id/feedentry_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/font_size_xlarge"
+    android:textStyle="bold"
+  />
+  <TextView
+    android:id="@+id/feedentry_creator"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+  />
+  <TextView
+    android:id="@+id/feedentry_date"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+  />
+  <ImageView
+    android:id="@+id/feedentry_bookmarked"
+    android:layout_gravity="end"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_bookmark_white_18dp"
+    android:layout_marginEnd="@dimen/component_padding_horizontal"
+  />
+</LinearLayout>

@@ -1,0 +1,41 @@
+<resources>
+  <string name="app_name">Rss Reader</string>
+
+  <string name="menu_feed">Meldungen</string>
+  <string name="menu_bookmarks">Lesezeichen</string>
+  <string name="menu_categories">Kategorien</string>
+  <string name="menu_authors">Autorinnen</string>
+  <string name="menu_about">Über</string>
+  <string name="menu_donate">Spenden</string>
+  <string name="menu_open_in_browser">In Browser öffnen</string>
+  <string name="menu_bookmark">Lesezeichen erstellen</string>
+  <string name="menu_share">Teilen</string>
+
+  <string name="settings_title">Einstellungen</string>
+  <string name="settings_updates">Updates</string>
+  <string name="settings_updates_frequency">Update alle&#8230;</string>
+  <string name="settings_updates_wifi_only">Nur im WLAN</string>
+  <string name="settings_notifications">Benachrichtigungen</string>
+  <string name="settings_notifications_enabled">Aktivieren</string>
+
+  <string name="settings_cache">Cache</string>
+  <string name="settings_cache_size">Größe</string>
+  <string name="settings_cache_extended">Erweitert</string>
+  <string name="settings_cache_images">Bilder cachen</string>
+  <string name="settings_cache_pdf">PDF cachen</string>
+
+  <string name="about_title">Über</string>
+  <string name="about_author_title">Entwickelt von</string>
+  <string name="about_author_url">https://dev-eth0.de</string>
+  <string name="about_version_title">Version</string>
+  <string name="about_author_twitter_title">Twitter</string>
+  <string name="about_author_twitter_url">https://twitter.com/#!/deveth0</string>
+
+  <string name="notification_title">Neues im RSS Reader</string>
+  <string name="notification_text">%d neue Posts</string>
+  <string name="notification_title_extended">Es gibt neue Posts</string>
+  <string name="notification_update_failed_title">Update fehlgeschlagen</string>
+
+  <string name="feedback_title">Feedback</string>
+
+</resources>

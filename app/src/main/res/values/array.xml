@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="updateFrequencyWord">
+    <item>Don\'t update</item>
+    <item>5 Minutes</item>
+    <item>15 Minutes</item>
+    <item>30 Minutes</item>
+    <item>60 Minutes</item>
+  </string-array>
+  <string-array name="updateFrequencyValue">
+    <item>0</item>
+    <item>5</item>
+    <item>15</item>
+    <item>30</item>
+    <item>60</item>
+  </string-array>
+  <string-array name="cacheSizeWord">
+    <item>Don\'t cache</item>
+    <item>10 MB</item>
+    <item>25 MB</item>
+    <item>50 MB</item>
+    <item>100 MB</item>
+  </string-array>
+  <string-array name="cacheSizeValue">
+    <item>0</item>
+    <item>10</item>
+    <item>25</item>
+    <item>50</item>
+    <item>100</item>
+  </string-array>
+
+</resources>

@@ -1,0 +1,4 @@
+include ':app'
+include ':core'
+
+project(":app").name = "RssReader"

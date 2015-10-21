@@ -1,0 +1,16 @@
+  <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="InconsistentLayout"
+    android:id="@+id/feed_summary_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/component_padding_vertical"
+    android:paddingEnd="@dimen/component_padding_vertical"
+  >
+    <TextView
+      android:id="@+id/feedentry_content"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+    />
+  </ScrollView>

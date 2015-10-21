@@ -1,0 +1,26 @@
+<LinearLayout
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <include layout="@layout/include_toolbar"/>
+  
+  <android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+    <fragment class="de.dev.eth0.rssreader.app.ui.fragments.AuthorsListFragment"
+              android:id="@+id/authors_list"
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="match_parent"/>
+    
+    <include layout="@layout/include_drawer_content"/>
+
+  </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

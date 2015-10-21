@@ -1,0 +1,18 @@
+ <android.support.v7.widget.Toolbar
+  xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   tools:ignore="UnusedAttribute"
+   android:id="@+id/toolbar"
+   app:popupTheme="@style/AppTheme"
+   app:titleTextAppearance="@style/ToolbarTitle"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:minHeight="?attr/actionBarSize"
+   android:background="@color/primary"
+   android:contentInsetStart="0dp"
+   android:contentInsetLeft="0dp"
+   app:contentInsetLeft="0dp"
+   app:contentInsetStart="0dp"
+ />
+

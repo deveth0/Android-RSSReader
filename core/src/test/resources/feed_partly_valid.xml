@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  >
+
+  <channel>
+    <title>Foobar.org</title>
+    <atom:link href="https://foobar.org/feed/" rel="self" type="application/rss+xml" />
+    <link>https://foobar.org</link>
+    <description>Ipsum lorem</description>
+    <lastBuildDate>Fri, 11 Sep 2015 08:56:04 +0000</lastBuildDate>
+    <language>de-DE</language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <copyright>Creative Commons BY-NC-SA 3.0 https://creativecommons.org/licenses/by-nc-sa/3.0/de/</copyright>
+    <managingEditor>admin@foobar.org</managingEditor>
+    <webMaster>admin@foobar.org</webMaster>
+    <category>Testing</category>
+    <ttl>1440</ttl>
+    <image>
+      <url>http://www.foobar.org/wp-upload/logo.png</url>
+      <title>foobar.org</title>
+      <link>https://foobar.org</link>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <item>
+      <title>Test title</title>
+      <link>http://foobar.de/test_1.html</link>
+      <comments>http://foobar.de/test_1.html#comments</comments>
+      <pubDate>Fri, 11 Sep 2015 13:36:18 +0000</pubDate>
+      <dc:creator><![CDATA[The author]]></dc:creator>
+      <category><![CDATA[Category 1]]></category>
+      <category><![CDATA[Category 2]]></category>
+
+      <guid isPermaLink="false">https://foobar.org/?p=asd</guid>
+      <description><![CDATA[Some Description text]]></description>
+      <content:encoded><![CDATA[The content is usually longer <a href="http://foobar.de/test_2.html">and can contain links]]></content:encoded>
+    </item>
+    <item>
+      <title>Test title 2</title>
+      <link>http://foobar.de/test_2.html</link>
+      <comments>http://foobar.de/test_2.html#comments</comments>
+      <content:encoded><![CDATA[The content is usually longer <a href="http://foobar.de/img.png">and can contain links]]></content:encoded>
+    </item>
+  </channel>
+</rss>

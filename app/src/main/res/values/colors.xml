@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- primary colors -->
+  <color name="primary">#3498DB</color>
+  <color name="primary_dark">#276E9E</color>
+
+  <color name="black">#000000</color>
+  <color name="dark_grey">#34282C</color>
+  <color name="grey">#666666</color>
+  <color name="light_grey">#EEEEEE</color>
+  <color name="white">#FFFFFF</color>
+
+  <color name="green">#75a800</color>
+  <color name="red">#db1313</color>
+
+  <color name="drawer_item_default">#34282C</color>
+  <color name="drawer_item_checked">#3498DB</color>
+
+</resources>
